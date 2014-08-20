@@ -1,0 +1,4 @@
+{
+    "jcr:primaryType":"vmw:root",
+    "sling:resourceType" : "vmware/partners"
+}

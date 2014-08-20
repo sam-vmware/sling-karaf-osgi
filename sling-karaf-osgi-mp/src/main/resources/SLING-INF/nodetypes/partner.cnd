@@ -1,0 +1,48 @@
+<nt = 'http://www.jcp.org/jcr/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+<sling = 'http://sling.apache.org/jcr/sling/1.0'>
+<vmw = 'http://www.vmware.com/jcr/vmw/1.0'>
+
+[vmw:blueprint] > sling:Resource, vmw:ImportType query
+    - name (STRING) mandatory COPY
+
+[vmw:resource] > vmw:ResourceHierarchy, mix:referenceable query
+  + jcr:content primary mandatory
+
+[vmw:resources] > vmw:ResourceHierarchy query
+	+ blueprint (vmw:blueprint) mandatory COPY
+	+ * (nt:base) = vmw:resource multiple COPY
+
+[vmw:app] > vmw:ResourceFolder, vmw:AppInfo query
+	+ resources (vmw:resources) mandatory COPY
+
+[vmw:product] > vmw:ResourceFolder query
+	- vmw:productid (STRING) mandatory COPY
+	+ * (vmw:app) COPY
+
+[vmw:partner] > vmw:ResourceFolder query
+	- vmw:partnerid (STRING) mandatory COPY
+	+ * (vmw:product) COPY
+
+[vmw:root] > vmw:ResourceFolder
+	+ * (vmw:partner) mandatory COPY
+
+/***** mixins *****/
+[vmw:AppType]
+    mixin
+    - apptypename (STRING) mandatory COPY < 'osgi', 'standard'
+
+[vmw:AppInfo] > vmw:AppType
+    mixin
+	- appname (STRING) mandatory COPY
+	- appmajor (LONG) mandatory COPY < '[0,)'
+	- appminor (DOUBLE) COPY
+
+[vmw:ImportType]
+    mixin
+    - importtypename (STRING) mandatory COPY < 'blueprint', 'service', 'task'
+
+[vmw:ResourceFolder] > sling:Resource, sling:Folder
+    mixin
+[vmw:ResourceHierarchy] > nt:base, sling:Resource, sling:HierarchyNode
+    mixin

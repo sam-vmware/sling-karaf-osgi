@@ -1,0 +1,5 @@
+{
+    "jcr:primaryType":"vmw:product",
+    "sling:resourceType" : "vmware/partners/acme/appdirector",
+    "vmw:productid":"appdirector"
+}

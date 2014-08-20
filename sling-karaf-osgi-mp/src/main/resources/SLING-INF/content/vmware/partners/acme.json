@@ -1,0 +1,5 @@
+{
+    "jcr:primaryType":"vmw:partner",
+    "sling:resourceType" : "vmware/partners/acme",
+    "vmw:partnerid":"acme"
+}

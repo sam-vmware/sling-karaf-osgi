@@ -1,0 +1,11 @@
+{
+    "jcr:primaryType":"vmw:app",
+    "jcr:mixinTypes": [
+        "vmw:AppInfo"
+    ],
+    "sling:resourceType" : "vmware/partners/acme/appdirector/wldukesbankdemo",
+    "apptypename":"standard",
+    "appname":"wldukesbankdemo",
+    "appmajor":1,
+    "appminor":0.0
+}

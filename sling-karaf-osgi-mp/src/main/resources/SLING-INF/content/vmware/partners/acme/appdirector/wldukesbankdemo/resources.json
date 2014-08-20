@@ -1,0 +1,10 @@
+{
+    "jcr:primaryType": "vmw:resources",
+    "sling:resourceType" : "vmware/partners/acme/appdirector/wldukesbankdemo/resources",
+    "blueprint": {
+        "jcr:primaryType": "vmw:blueprint",
+        "sling:resourceType" : "vmware/partners/acme/appdirector/wldukesbankdemo/resources/blueprint",
+        "name": "weblogicBP.xml",
+        "importtypename": "blueprint"
+    }
+}

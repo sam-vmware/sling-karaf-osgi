@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>400</x>
+      <y>584</y>
+      <w>232</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=())
+&lt;&lt; Direct Bundle Install &gt;&gt;
+INSTALL /puppet/appd/5/1/vFabric.jar</panel_attributes>
+    <additional_attributes>120;24;120;64;120;144</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>368</x>
+      <y>16</y>
+      <w>72</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>56;48;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>520</x>
+      <y>464</y>
+      <w>88</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>center:Sling</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SimpleComponent</type>
+    <coordinates>
+      <x>400</x>
+      <y>728</y>
+      <w>152</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>vCloud Director</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>296</x>
+      <y>464</y>
+      <w>184</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Admin Operations
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.InteractionFrame</type>
+    <coordinates>
+      <x>88</x>
+      <y>376</y>
+      <w>768</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>DMZ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Database</type>
+    <coordinates>
+      <x>696</x>
+      <y>32</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>OBR</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SimpleComponent</type>
+    <coordinates>
+      <x>272</x>
+      <y>432</y>
+      <w>544</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Partner Content System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>440</x>
+      <y>16</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>24;48;112;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>520</x>
+      <y>8</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Ruby</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>328</x>
+      <y>8</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Groovy</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>576</x>
+      <y>528</y>
+      <w>104</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>bg=orange
+Each JCR maps
+to a remote OBR</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>584</x>
+      <y>472</y>
+      <w>120</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;-</panel_attributes>
+    <additional_attributes>24;24;104;48</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.PackageAggregationHierarchy</type>
+    <coordinates>
+      <x>328</x>
+      <y>128</y>
+      <w>280</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>SLING-CONTENT
+	partner (id)
+		product (AppDirector)
+			version (major)
+				version (minor)
+					app
+						version
+							scripts
+							content
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>392</x>
+      <y>704</y>
+      <w>176</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>center:VM</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Database</type>
+    <coordinates>
+      <x>688</x>
+      <y>464</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;JCRP1&gt;&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>616</x>
+      <y>736</y>
+      <w>488</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=orange
+For OSGi based products, a bundle may be imported directly</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>640</x>
+      <y>72</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>center:Partner C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>416</x>
+      <y>16</y>
+      <w>64</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>24;48;48;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>640</x>
+      <y>0</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>center:Partner B</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SimpleComponent</type>
+    <coordinates>
+      <x>88</x>
+      <y>728</y>
+      <w>152</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Application Director</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>160</x>
+      <y>72</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>bg=orange
+Although Java is the 
+preferred way for
+generating the bundle.
+Anything can be used
+as long as the structure
+is correct.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Database</type>
+    <coordinates>
+      <x>312</x>
+      <y>80</y>
+      <w>304</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>OBR
+--
+Bundle A
+--
+MANIFEST</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>304</x>
+      <y>480</y>
+      <w>80</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Repository
+--
+left:Add
+Activate
+Deactivate
+Remove</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Database</type>
+    <coordinates>
+      <x>688</x>
+      <y>512</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;JCRP3&gt;&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>152</x>
+      <y>0</y>
+      <w>480</w>
+      <h>368</h>
+    </coordinates>
+    <panel_attributes>Partner A</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.SynchBarHorizontal</type>
+    <coordinates>
+      <x>312</x>
+      <y>56</y>
+      <w>256</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>616</x>
+      <y>664</y>
+      <w>488</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=orange
+From the product side, the structured bundle may be referenced
+in an unstructured fashion for non-OSGi based projects such
+as Application Director, here being an example for an apps root access
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>80</x>
+      <y>704</y>
+      <w>176</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>center:VM</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>616</x>
+      <y>776</y>
+      <w>488</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>INSTALL /{partner}/{product}/{major:.*}/{minor:.*}/app.jar
+bg=blue
+fg=default</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>504</x>
+      <y>440</y>
+      <w>304</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>center:Karaf</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>248</x>
+      <y>408</y>
+      <w>592</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>center:VM/Gateway</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>584</x>
+      <y>464</y>
+      <w>120</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;-</panel_attributes>
+    <additional_attributes>24;24;104;32</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>616</x>
+      <y>264</y>
+      <w>182</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;]-(()-[^]&gt;
+&lt;&lt; Publish Repository&gt;</panel_attributes>
+    <additional_attributes>24;40;104;40;104;136</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>584</x>
+      <y>448</y>
+      <w>120</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&gt;-</panel_attributes>
+    <additional_attributes>24;32;104;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>408</x>
+      <y>40</y>
+      <w>40</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>24;40;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Database</type>
+    <coordinates>
+      <x>696</x>
+      <y>104</y>
+      <w>72</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>OBR</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>424</x>
+      <y>8</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Python</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>616</x>
+      <y>704</y>
+      <w>488</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>GET /{partner}/{product}/{major:.*}/{minor:.*}/{app}/{version:.*}/{scripts,content} 
+bg=blue
+fg=default</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>96</x>
+      <y>536</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>bg=orange
+Administrator reviews
+published bundles in
+repository for contract
+accuracy and performs
+according actions
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>96</x>
+      <y>464</y>
+      <w>80</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Administrator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>392</x>
+      <y>480</y>
+      <w>80</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Bundle
+--
+left:Add
+Upgrade
+Remove</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Database</type>
+    <coordinates>
+      <x>688</x>
+      <y>488</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;JCRP2&gt;&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>232</x>
+      <y>8</y>
+      <w>96</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Java</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>72</x>
+      <y>584</y>
+      <w>348</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=())
+&lt;&lt;Unstructured REST Call&gt;&gt;
+GET /puppet/appd/5/1/vFabric/scripts (lifecyle)
+GET /puppet/appd/5/1/vFabric/content (jars,license, etc)</panel_attributes>
+    <additional_attributes>232;24;176;72;144;144</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>640</x>
+      <y>208</y>
+      <w>336</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>bg=orange
+Bundles within the OBR have an additional 
+Sling-Initial-Content manifest header.
+This header instructs Sling how data should be 
+loaded into the JCR when the bundle enters the activated
+state. An example of this is seen in the Partner A
+OBR.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>112</x>
+      <y>456</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>184;24;24;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>256</x>
+      <y>16</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>144;48;24;24</additional_attributes>
+  </element>
+</diagram>
